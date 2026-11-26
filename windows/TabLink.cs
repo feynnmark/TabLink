@@ -160,7 +160,7 @@ namespace TabLink {
                 ThreadPool.QueueUserWorkItem(delegate { stopSignal.WaitOne(); if (running) BeginInvoke((Action)delegate { exitRequested = true; Close(); }); });
                 ThreadPool.QueueUserWorkItem(delegate { while(running){showSignal.WaitOne();if(running)BeginInvoke((Action)delegate {Show();WindowState=FormWindowState.Normal;Activate();});} });
             });
-            Program.Log("START v0.6.0 " + Native.Describe().Replace(Environment.NewLine, " | "));
+            Program.Log("START v0.6.1 " + Native.Describe().Replace(Environment.NewLine, " | "));
         }
         void Status(string title, string description) {
             if (IsDisposed || !IsHandleCreated) return;
@@ -206,7 +206,7 @@ namespace TabLink {
                         if(!updateRequired) {
                             string packageInfo=Program.Run(adb,"-s "+serial+" shell dumpsys package com.tablink.display",5000);
                             Match version=Regex.Match(packageInfo,@"versionCode=(\d+)");
-                            updateRequired=!version.Success || int.Parse(version.Groups[1].Value)<6;
+                            updateRequired=!version.Success || int.Parse(version.Groups[1].Value)<7;
                         }
                         if (updateRequired) {
                             Status("Instalando app Android", "La app nativa se está copiando a la tablet por USB.");

@@ -1,4 +1,4 @@
-param([string]$Destination,[switch]$NoStart,[switch]$NoStartup)
+﻿param([string]$Destination,[switch]$NoStart,[switch]$NoStartup)
 $ErrorActionPreference = 'Stop'
 $taskDestination = if ($Destination) { [IO.Path]::GetFullPath($Destination) } else { Join-Path $env:LOCALAPPDATA 'TabLink\app' }
 if (-not (Test-Path -LiteralPath (Join-Path $PSScriptRoot 'TabLink.exe'))) { throw 'Descarga y extrae el ZIP de Releases antes de instalar.' }

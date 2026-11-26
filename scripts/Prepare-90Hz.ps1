@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 $taskData = Join-Path $env:LOCALAPPDATA 'TabLink'
 New-Item -ItemType Directory -Path $taskData -Force | Out-Null
 Start-Transcript -LiteralPath (Join-Path $taskData 'driver-setup.log') -Force | Out-Null

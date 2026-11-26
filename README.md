@@ -17,7 +17,7 @@ La conexión puede utilizar un puerto USB de la placa base, del portátil o de u
 
 ## Descargar e instalar
 
-1. Abre [Releases](https://github.com/feynnmark/TabLink/releases/latest) y descarga **TabLink-0.6.0-Windows.zip**. El archivo **Source code** contiene el código para desarrolladores.
+1. Abre [Releases](https://github.com/feynnmark/TabLink/releases/latest) y descarga **TabLink-0.6.1-Windows.zip**. El archivo **Source code** contiene el código para desarrolladores.
 2. Extrae el ZIP en una carpeta local. No ejecutes el instalador desde el ZIP.
 3. Ejecuta **Install.cmd**. Instala TabLink para tu usuario y descarga ADB, FFmpeg y el controlador VDD desde sus fuentes oficiales, con verificación SHA-256. La primera instalación descarga aproximadamente 200 MB.
 4. En la ventana de TabLink, pulsa **Preparar pantalla virtual (una vez)**. Acepta el aviso de administrador. El controlador aparece como **MikeTheTech / SignPath Foundation**; puedes autorizar esa instalación sin marcar **Siempre confiar**.

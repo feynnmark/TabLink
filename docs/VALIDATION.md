@@ -40,3 +40,9 @@ sessions, and three reconnect cycles with unchanged physical monitor geometry
 and removal of the virtual monitor. The native Android receiver also presented
 the negotiated 10-bit stream at its 90 Hz panel mode. Other manufacturers have
 not yet been tested on physical hardware.
+
+Version 0.6.1 preserves the same video protocol and pipeline. It adds explicit
+UTF-8 signatures to PowerShell scripts so Windows PowerShell 5.1 displays
+Spanish installer messages correctly. The classic PowerShell installer was
+exercised in an isolated local destination. The user confirmed that image
+presentation and touch still worked with the generalized receiver.

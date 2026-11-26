@@ -1,4 +1,4 @@
-param([switch]$SkipDependencies)
+﻿param([switch]$SkipDependencies)
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path $PSScriptRoot -Parent
 $sdkBuild = Join-Path $projectRoot 'tools\build-tools\android-15'

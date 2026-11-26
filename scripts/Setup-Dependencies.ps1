@@ -1,4 +1,4 @@
-param([string]$Destination, [switch]$ForBuild)
+﻿param([string]$Destination, [switch]$ForBuild)
 $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $taskManifest = Join-Path $PSScriptRoot 'dependencies.json'

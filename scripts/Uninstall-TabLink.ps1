@@ -1,4 +1,4 @@
-param([switch]$RemoveDriver,[switch]$RemoveLegacyDriver)
+﻿param([switch]$RemoveDriver,[switch]$RemoveLegacyDriver)
 $ErrorActionPreference = 'Stop'
 $taskData = Join-Path $env:LOCALAPPDATA 'TabLink'
 $taskApp = Join-Path $taskData 'app'
