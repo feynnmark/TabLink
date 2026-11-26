@@ -1,0 +1,27 @@
+{
+  "adb": {
+    "version": "37.0.1",
+    "url": "https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip",
+    "sha256": "45f4d63113e895ebde0c90f194099a4676b6ac653bd28d54314a9e022bbc1a99"
+  },
+  "ffmpeg": {
+    "version": "9.0.2-essentials_build",
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-9.0.2-essentials_build.zip",
+    "sha256": "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba"
+  },
+  "vdd": {
+    "version": "25.7.23",
+    "url": "https://github.com/VirtualDrivers/Virtual-Display-Driver/releases/download/25.7.23/VDD.Control.25.7.23.zip",
+    "sha256": "a701f2272e9fcf382849b24f913c6dd07597b3b1116525f2e90182f019609154"
+  },
+  "buildTools": {
+    "version": "35.0.0",
+    "url": "https://dl.google.com/android/repository/build-tools_r35_windows.zip",
+    "sha256": "5753c679a1b90bcf6fbc9945a2ce39dfb9e74f1df0831a1e1866ae5b594326f0"
+  },
+  "androidPlatform": {
+    "version": "35_r02",
+    "url": "https://dl.google.com/android/repository/platform-35_r02.zip",
+    "sha256": "0988cacad01b38a18a47bac14a0695f246bc76c1b06c0eeb8eb0dc825ab0c8e0"
+  }
+}
